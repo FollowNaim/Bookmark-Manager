@@ -1,0 +1,30 @@
+{
+  "name": "a Simple Bookmark Manager",
+  "version": "1.0.1",
+  "description": "simple bookmark manager extension landing page",
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": [
+    "bookmark manager, landing page, FollowNaim"
+  ],
+  "author": {
+    "name": "Naim",
+    "email": "naimxf@gmail.com",
+    "url": "https://github.com/FollowNaim"
+  },
+  "license": "AGPL",
+  "bugs": {
+    "url": "https://github.com/FollowNaim/Bookmark-Manager/issues"
+  },
+  "homepage": "https://github.com/FollowNaim/Bookmark-Manager#readme",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+  }
+  
+}
